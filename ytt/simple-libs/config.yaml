@@ -1,0 +1,3 @@
+#@ load("@ytt:library", "library")
+#@ load("@ytt:template", "template")
+--- #@ template.replace(library.get("my_app").eval())

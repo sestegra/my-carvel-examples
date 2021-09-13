@@ -1,0 +1,5 @@
+#@library/ref "@my_app"
+#@data/values
+---
+username: "admin"
+password: "password"

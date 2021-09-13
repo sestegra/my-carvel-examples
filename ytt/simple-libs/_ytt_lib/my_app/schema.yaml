@@ -1,0 +1,6 @@
+#@data/values-schema
+---
+#@schema/nullable
+username: ""
+#@schema/nullable
+password: ""

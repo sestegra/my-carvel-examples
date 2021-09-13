@@ -1,0 +1,4 @@
+#@ load("@ytt:data", "data")
+#@ load("@ytt:library", "library")
+#@ load("@ytt:template", "template")
+--- #@ template.replace(library.get("my_app").with_data_values(data.values).eval())
