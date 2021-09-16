@@ -1,0 +1,65 @@
+#@data/values
+---
+additional_names:
+  sensitive: false
+  type:
+  - list
+  - - tuple
+    - []
+  value:
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+  - []
+control_names:
+  sensitive: false
+  type:
+  - tuple
+  - - string
+    - string
+    - string
+    - string
+    - string
+    - string
+    - string
+    - string
+    - string
+    - string
+    - string
+  value:
+  - control-user00
+  - control-user01
+  - control-user02
+  - control-user03
+  - control-user04
+  - control-user05
+  - control-user06
+  - control-user07
+  - control-user08
+  - control-user09
+  - control-user10
+vms:
+  sensitive: false
+  type:
+  - tuple
+  - - - object
+      - dns: string
+        name: string
+  value:
+  - dns: ses-bdl.workshop.lab.platform-essential.com
+    name: ses-bdl
+workshop_dns:
+  sensitive: false
+  type: string
+  value: ses-bdl.workshop.lab.platform-essential.com
+workshop_name:
+  sensitive: false
+  type: string
+  value: ses-bdl

@@ -1,0 +1,6 @@
+#@ load("@ytt:data", "data")
+
+#@ for k in data.values:
+#@yaml/text-templated-strings
+(@= k @): #@ data.values[k].value
+#@ end
